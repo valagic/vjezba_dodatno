@@ -45,3 +45,5 @@ create table zarucnica(
 	modelnaocala varchar(50) not null,
 	nausnica int not null
 );
+
+alter table muskarac add foreign key(neprijateljica) references neprijateljica(id);
